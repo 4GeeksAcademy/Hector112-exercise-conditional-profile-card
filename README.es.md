@@ -52,7 +52,7 @@ function render(variables = {}) {
 Puedes ver las `variables` que están siendo generadas escribiendo en la consola:
 
 ```js
-console.log(window.variables);
+
 /*
 {
     includeCover: true, // if includeCover is true the algorithm should show the cover image
@@ -117,7 +117,7 @@ Entonces cuando el contenido de los elementos "cambia" se va a actualizar de una
 | socialMediaPosition | string | "right" | puede ser `left` o` right` y determina dónde colocar la barra de redes sociales |
 | twitter | string | null | El nombre de usuario de Twitter que se mostrará en el perfil |
 | github | string | null | El nombre de usuario de Github que se mostrará en el perfil |
-| linkedin | string | null | El nombre de usuario de Linkedin que se mostrará en el perfil |
+| linkedin | string | null | El nombre de usuario de Linkedin que se mostrará enconsole.log(window.variables); el perfil |
 | instagram | string | null | El nombre de usuario de Instagram para ser mostrado en el perfil |
 | name | string | null | El nombre del usuario que se mostrará en el perfil |
 | lastName | string | null | El nombre del usuario que se mostrará en el perfil |
